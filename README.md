@@ -6,7 +6,7 @@ The **Fast Project Creator** is a personal tool designed to quickly generate a n
 
 ## Key Features
 
-* **Automated Project Generation:** Rapidly creates a complete project directory, including a `src` folder, documentation, and a `Makefile`.
+* **Automated Project Generation:** Rapidly creates a complete project directory.
 * **Customizable Templates:** Uses a C89 `nostdlib` template, allowing you to easily create portable C projects without relying on the standard library.
 * **Placeholder Replacements:** Prompts you for key project details like the author, project name, and version, then automatically replaces placeholders in the generated files.
 * **Integrated GitHub Actions:** Sets up a basic CI/CD workflow, ready to go for your new GitHub repository.
