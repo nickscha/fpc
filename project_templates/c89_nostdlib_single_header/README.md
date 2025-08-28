@@ -1,7 +1,7 @@
 # {{LIB_NAME_SHORT_LOWER}}
 {{DESCRIPTION}}
 
-For more information please look at the "{{LIB_NAME_SHORT}}.h" file or take a look at the "examples" or "tests" folder.
+For more information please look at the "{{LIB_NAME_SHORT_LOWER}}.h" file or take a look at the "examples" or "tests" folder.
 
 > [!WARNING]
 > THIS PROJECT IS A WORK IN PROGRESS! ANYTHING CAN CHANGE AT ANY MOMENT WITHOUT ANY NOTICE! USE THIS PROJECT AT YOUR OWN RISK!
