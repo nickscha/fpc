@@ -6,6 +6,28 @@ For more information please look at the "{{LIB_NAME_SHORT_LOWER}}.h" file or tak
 > [!WARNING]
 > THIS PROJECT IS A WORK IN PROGRESS! ANYTHING CAN CHANGE AT ANY MOMENT WITHOUT ANY NOTICE! USE THIS PROJECT AT YOUR OWN RISK!
 
+<p align="center">
+  <a href="https://github.com/nickscha/{{LIB_NAME_SHORT_LOWER}}/releases">
+    <img src="https://img.shields.io/github/v/release/nickscha/{{LIB_NAME_SHORT_LOWER}}?style=flat-square&color=blue" alt="Latest Release">
+  </a>
+  <a href="https://github.com/nickscha/{{LIB_NAME_SHORT_LOWER}}/releases">
+    <img src="https://img.shields.io/github/downloads/nickscha/{{LIB_NAME_SHORT_LOWER}}/total?style=flat-square&color=brightgreen" alt="Downloads">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/Standard-C89-orange?style=flat-square" alt="C Standard">
+  <img src="https://img.shields.io/badge/nolib-nostdlib-lightgrey?style=flat-square" alt="nostdlib">
+</p>
+
+## **Features**
+- **C89 compliant** — portable and legacy-friendly  
+- **Single-header API** — just include `{{LIB_NAME_SHORT_LOWER}}.h`  
+- **nostdlib** — no dependency on the C Standard Library  
+- **Minimal binary size** — optimized for small executables  
+- **Cross-platform** — Windows, Linux, MacOs 
+- **Strict compilation** — built with aggressive warnings & safety checks  
+
 ## Quick Start
 
 Download or clone {{LIB_NAME_SHORT_LOWER}}.h and include it in your project.
