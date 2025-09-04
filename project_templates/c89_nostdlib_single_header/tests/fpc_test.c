@@ -11,9 +11,8 @@ LICENSE
 
 */
 #include "../{{LIB_NAME_SHORT_LOWER}}.h" /* {{LIB_NAME_LONG}} */
-
-#include "test.h" /* Simple Testing framework    */
-#include "perf.h" /* Simple Performance profiler */
+#include "../deps/test.h" /* Simple Testing framework    */
+#include "../deps/perf.h" /* Simple Performance profiler */
 
 int main(void)
 {
