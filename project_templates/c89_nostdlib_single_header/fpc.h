@@ -18,17 +18,15 @@ LICENSE
 /* Check if using C99 or later (inline is supported) */
 #if __STDC_VERSION__ >= 199901L
 #define {{LIB_NAME_SHORT_UPPER}}_INLINE inline
-#define {{LIB_NAME_SHORT_UPPER}}_API static
 #elif defined(__GNUC__) || defined(__clang__)
 #define {{LIB_NAME_SHORT_UPPER}}_INLINE __inline__
-#define {{LIB_NAME_SHORT_UPPER}}_API static
 #elif defined(_MSC_VER)
 #define {{LIB_NAME_SHORT_UPPER}}_INLINE __inline
-#define {{LIB_NAME_SHORT_UPPER}}_API static
 #else
 #define {{LIB_NAME_SHORT_UPPER}}_INLINE
-#define {{LIB_NAME_SHORT_UPPER}}_API static
 #endif
+
+#define {{LIB_NAME_SHORT_UPPER}}_API static
 
 #endif /* {{LIB_NAME_SHORT_UPPER}}_H */
 
